@@ -12,6 +12,7 @@
     "heroku-postbuild": "npm run install-client && npm run build",
     "start": "node server.js",
     "client": "cd client && npm start"
+  
   },
   "keywords": [],
   "author": "",
@@ -28,6 +29,6 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.5"
   }
 }
